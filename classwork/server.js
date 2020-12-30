@@ -100,5 +100,5 @@ server.listen(process.env.PORT || 3000,
     process.env.IP || 'localhost', function () {
         console.log('Server running');
     })
-    gitmodule.exports = {app, server, mongoose}
+module.exports = {app, server}
 
